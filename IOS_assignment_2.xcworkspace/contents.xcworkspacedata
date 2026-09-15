@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:IOS_assignment_1.playground">
+   </FileRef>
+   <FileRef
+      location = "container:IOS_assignment_2.playground">
+   </FileRef>
+</Workspace>
