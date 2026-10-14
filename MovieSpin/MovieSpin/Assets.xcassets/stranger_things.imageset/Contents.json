@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "stranger_things.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
