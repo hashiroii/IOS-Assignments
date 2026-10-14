@@ -18,8 +18,6 @@ class ViewController: UIViewController {
         show(favorites[index])
     }
 
-    // Picks a random index that is different from the one on screen,
-    // so the same favorite never appears twice in a row.
     private func nextRandomIndex() -> Int {
         guard favorites.count > 1 else { return 0 }
         var index = Int.random(in: 0..<favorites.count)
@@ -29,7 +27,6 @@ class ViewController: UIViewController {
         return index
     }
 
-    // Image, title, subtitle and description change together in one animation.
     private func show(_ favorite: Favorite) {
         UIView.transition(with: cardView, duration: 0.3, options: .transitionCrossDissolve) {
             self.posterImageView.image = UIImage(named: favorite.imageName)
