@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoffeeOrder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="cup.and.saucer.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cof-Im-001">
+                                <rect key="frame" x="16" y="75" width="361" height="203"/>
+                                <color key="backgroundColor" red="0.94999999999999996" green="0.92000000000000004" blue="0.88" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.44" green="0.27000000000000002" blue="0.16" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cof-Im-001" secondAttribute="height" multiplier="16:9" id="asp-Cn-001"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Iced Caramel Oat Milk Latte" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttl-La-001">
+                                <rect key="frame" x="16" y="294" width="281" height="62"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="$5.25" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prc-La-001">
+                                <rect key="frame" x="309" y="297" width="68" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="0.44" green="0.27000000000000002" blue="0.16" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espresso with caramel syrup, creamy oat milk and lots of ice." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsc-La-001">
+                                <rect key="frame" x="16" y="364" width="361" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.45000000000000001" green="0.45000000000000001" blue="0.45000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siz-La-001">
+                                <rect key="frame" x="16" y="424" width="36" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sml-Bt-001">
+                                <rect key="frame" x="16" y="452" width="113.66666666666667" height="48"/>
+                                <color key="backgroundColor" red="0.94999999999999996" green="0.92000000000000004" blue="0.88" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="sml-Ht-001"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Small">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sizeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sml-Ac-001"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="med-Bt-001">
+                                <rect key="frame" x="139.66666666666666" y="452" width="113.66666666666666" height="48"/>
+                                <color key="backgroundColor" red="0.44" green="0.27000000000000002" blue="0.16" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="med-Ht-001"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Medium">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sizeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="med-Ac-001"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrg-Bt-001">
+                                <rect key="frame" x="263.33333333333331" y="452" width="113.66666666666669" height="48"/>
+                                <color key="backgroundColor" red="0.94999999999999996" green="0.92000000000000004" blue="0.88" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="lrg-Ht-001"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Large">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sizeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lrg-Ac-001"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity: 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qty-La-001">
+                                <rect key="frame" x="16" y="530" width="90" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="qty-St-001">
+                                <rect key="frame" x="283" y="524" width="94" height="32"/>
+                                <connections>
+                                    <action selector="quantityChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qty-Ac-001"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ord-Bt-001">
+                                <rect key="frame" x="16" y="752" width="361" height="50"/>
+                                <color key="backgroundColor" red="0.44" green="0.27000000000000002" blue="0.16" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ord-Ht-001"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Order · $5.25">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="orderTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ord-Ac-001"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cof-Im-001" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="c01-Cn-001"/>
+                            <constraint firstItem="cof-Im-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c02-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cof-Im-001" secondAttribute="trailing" constant="16" id="c03-Cn-001"/>
+                            <constraint firstItem="ttl-La-001" firstAttribute="top" secondItem="cof-Im-001" secondAttribute="bottom" constant="16" id="c04-Cn-001"/>
+                            <constraint firstItem="ttl-La-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c05-Cn-001"/>
+                            <constraint firstItem="prc-La-001" firstAttribute="leading" secondItem="ttl-La-001" secondAttribute="trailing" constant="12" id="c06-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="prc-La-001" secondAttribute="trailing" constant="16" id="c07-Cn-001"/>
+                            <constraint firstItem="prc-La-001" firstAttribute="firstBaseline" secondItem="ttl-La-001" secondAttribute="firstBaseline" id="c08-Cn-001"/>
+                            <constraint firstItem="dsc-La-001" firstAttribute="top" secondItem="ttl-La-001" secondAttribute="bottom" constant="8" id="c09-Cn-001"/>
+                            <constraint firstItem="dsc-La-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c10-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dsc-La-001" secondAttribute="trailing" constant="16" id="c11-Cn-001"/>
+                            <constraint firstItem="siz-La-001" firstAttribute="top" secondItem="dsc-La-001" secondAttribute="bottom" constant="24" id="c12-Cn-001"/>
+                            <constraint firstItem="siz-La-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c13-Cn-001"/>
+                            <constraint firstItem="sml-Bt-001" firstAttribute="top" secondItem="siz-La-001" secondAttribute="bottom" constant="8" id="c14-Cn-001"/>
+                            <constraint firstItem="sml-Bt-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c15-Cn-001"/>
+                            <constraint firstItem="med-Bt-001" firstAttribute="leading" secondItem="sml-Bt-001" secondAttribute="trailing" constant="10" id="c16-Cn-001"/>
+                            <constraint firstItem="lrg-Bt-001" firstAttribute="leading" secondItem="med-Bt-001" secondAttribute="trailing" constant="10" id="c17-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lrg-Bt-001" secondAttribute="trailing" constant="16" id="c18-Cn-001"/>
+                            <constraint firstItem="med-Bt-001" firstAttribute="top" secondItem="sml-Bt-001" secondAttribute="top" id="c19-Cn-001"/>
+                            <constraint firstItem="lrg-Bt-001" firstAttribute="top" secondItem="sml-Bt-001" secondAttribute="top" id="c20-Cn-001"/>
+                            <constraint firstItem="med-Bt-001" firstAttribute="width" secondItem="sml-Bt-001" secondAttribute="width" id="c21-Cn-001"/>
+                            <constraint firstItem="lrg-Bt-001" firstAttribute="width" secondItem="sml-Bt-001" secondAttribute="width" id="c22-Cn-001"/>
+                            <constraint firstItem="qty-St-001" firstAttribute="top" secondItem="sml-Bt-001" secondAttribute="bottom" constant="24" id="c23-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qty-St-001" secondAttribute="trailing" constant="16" id="c24-Cn-001"/>
+                            <constraint firstItem="qty-La-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c25-Cn-001"/>
+                            <constraint firstItem="qty-La-001" firstAttribute="centerY" secondItem="qty-St-001" secondAttribute="centerY" id="c26-Cn-001"/>
+                            <constraint firstItem="qty-St-001" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qty-La-001" secondAttribute="trailing" constant="8" id="c27-Cn-001"/>
+                            <constraint firstItem="ord-Bt-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c28-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ord-Bt-001" secondAttribute="trailing" constant="16" id="c29-Cn-001"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ord-Bt-001" secondAttribute="bottom" constant="16" id="c30-Cn-001"/>
+                            <constraint firstItem="ord-Bt-001" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qty-St-001" secondAttribute="bottom" constant="16" id="c31-Cn-001"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="dsc-La-001" id="out-Cn-001"/>
+                        <outlet property="orderButton" destination="ord-Bt-001" id="out-Cn-002"/>
+                        <outlet property="priceLabel" destination="prc-La-001" id="out-Cn-003"/>
+                        <outlet property="quantityLabel" destination="qty-La-001" id="out-Cn-004"/>
+                        <outlet property="titleLabel" destination="ttl-La-001" id="out-Cn-005"/>
+                        <outletCollection property="sizeButtons" destination="sml-Bt-001" collectionClass="NSMutableArray" id="out-Cn-006"/>
+                        <outletCollection property="sizeButtons" destination="med-Bt-001" collectionClass="NSMutableArray" id="out-Cn-007"/>
+                        <outletCollection property="sizeButtons" destination="lrg-Bt-001" collectionClass="NSMutableArray" id="out-Cn-008"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cup.and.saucer.fill" catalog="system" width="32" height="32"/>
+    </resources>
+</document>

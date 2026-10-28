@@ -16,4 +16,10 @@
    <FileRef
       location = "container:IOS_assignment_5.playground">
    </FileRef>
+   <FileRef
+      location = "group:MovieSpin/MovieSpin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoffeeOrder/CoffeeOrder.xcodeproj">
+   </FileRef>
 </Workspace>
