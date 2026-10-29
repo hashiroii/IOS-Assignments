@@ -22,4 +22,7 @@
    <FileRef
       location = "group:CoffeeOrder/CoffeeOrder.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:MusicPlayer/MusicPlayer.xcodeproj">
+   </FileRef>
 </Workspace>
