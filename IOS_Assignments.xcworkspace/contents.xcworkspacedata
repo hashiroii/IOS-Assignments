@@ -25,4 +25,7 @@
    <FileRef
       location = "group:MusicPlayer/MusicPlayer.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FavoritesList/FavoritesList.xcodeproj">
+   </FileRef>
 </Workspace>
