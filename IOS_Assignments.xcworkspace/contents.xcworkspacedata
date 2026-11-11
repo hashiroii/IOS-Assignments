@@ -28,4 +28,7 @@
    <FileRef
       location = "group:FavoritesList/FavoritesList.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FavoritesNavigator/FavoritesNavigator.xcodeproj">
+   </FileRef>
 </Workspace>
